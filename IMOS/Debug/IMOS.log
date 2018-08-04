@@ -1,0 +1,26 @@
+﻿生成启动时间为 2018/8/4 16:25:39。
+     1>项目“E:\CC++project\c++\传智15\IMOS\IMOS\IMOS.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>e:\cc++project\c++\传智15\imos\imos\main.c(31): warning C4047: “函数”:“char *”与“char (*)[64]”的间接级别不同
+     1>e:\cc++project\c++\传智15\imos\imos\main.c(31): warning C4024: “gets”: 形参和实参 1 的类型不同
+     1>e:\cc++project\c++\传智15\imos\imos\main.c(34): warning C4047: “函数”:“char *”与“char (*)[16]”的间接级别不同
+     1>e:\cc++project\c++\传智15\imos\imos\main.c(34): warning C4024: “gets”: 形参和实参 1 的类型不同
+     1>e:\cc++project\c++\传智15\imos\imos\main.c(37): warning C4047: “函数”:“char *”与“char (*)[944]”的间接级别不同
+     1>e:\cc++project\c++\传智15\imos\imos\main.c(37): warning C4024: “gets”: 形参和实参 1 的类型不同
+     1>e:\cc++project\c++\传智15\imos\imos\main.c(55): warning C4047: “函数”:“char *”与“char (*)[64]”的间接级别不同
+     1>e:\cc++project\c++\传智15\imos\imos\main.c(55): warning C4024: “gets”: 形参和实参 1 的类型不同
+     1>e:\cc++project\c++\传智15\imos\imos\main.c(58): warning C4047: “函数”:“char *”与“char (*)[16]”的间接级别不同
+     1>e:\cc++project\c++\传智15\imos\imos\main.c(58): warning C4024: “gets”: 形参和实参 1 的类型不同
+     1>e:\cc++project\c++\传智15\imos\imos\main.c(61): warning C4047: “函数”:“char *”与“char (*)[944]”的间接级别不同
+     1>e:\cc++project\c++\传智15\imos\imos\main.c(61): warning C4024: “gets”: 形参和实参 1 的类型不同
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\CC++project\c++\传智15\IMOS\Debug\IMOS.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\CC++project\c++\传智15\IMOS\Debug\IMOS.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\CC++project\c++\传智15\IMOS\Debug\IMOS.lib" /MACHINE:X86 Debug\IMOS.obj
+         Debug\main.obj
+         IMOS.vcxproj -> E:\CC++project\c++\传智15\IMOS\Debug\IMOS.exe
+     1>已完成生成项目“E:\CC++project\c++\传智15\IMOS\IMOS\IMOS.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.37
