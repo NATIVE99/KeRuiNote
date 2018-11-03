@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cadClass</class>
+ <widget class="QMainWindow" name="cadClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>cad</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="open"/>
+    <addaction name="save"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>图形</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="line"/>
+    <addaction name="rect"/>
+    <addaction name="eillpse"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>工具</string>
+    </property>
+    <addaction name="color"/>
+    <addaction name="select"/>
+    <addaction name="separator"/>
+    <addaction name="undo"/>
+    <addaction name="exect"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="line"/>
+   <addaction name="rect"/>
+   <addaction name="eillpse"/>
+   <addaction name="color"/>
+   <addaction name="select"/>
+   <addaction name="undo"/>
+   <addaction name="exect"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="line">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="cad.qrc">
+     <normaloff>:/cad/Resources/line_32px_1101685_easyicon.net.ico</normaloff>:/cad/Resources/line_32px_1101685_easyicon.net.ico</iconset>
+   </property>
+   <property name="text">
+    <string>直线</string>
+   </property>
+  </action>
+  <action name="rect">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="cad.qrc">
+     <normaloff>:/cad/Resources/rectangle_32px_1125662_easyicon.net.ico</normaloff>:/cad/Resources/rectangle_32px_1125662_easyicon.net.ico</iconset>
+   </property>
+   <property name="text">
+    <string>矩形</string>
+   </property>
+  </action>
+  <action name="eillpse">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="cad.qrc">
+     <normaloff>:/cad/Resources/ellipse_stroked_32px_1168912_easyicon.net.ico</normaloff>:/cad/Resources/ellipse_stroked_32px_1168912_easyicon.net.ico</iconset>
+   </property>
+   <property name="text">
+    <string>椭圆</string>
+   </property>
+  </action>
+  <action name="color">
+   <property name="icon">
+    <iconset resource="cad.qrc">
+     <normaloff>:/cad/Resources/my_work_Color_plate_32px_515147_easyicon.net.ico</normaloff>:/cad/Resources/my_work_Color_plate_32px_515147_easyicon.net.ico</iconset>
+   </property>
+   <property name="text">
+    <string>颜色</string>
+   </property>
+  </action>
+  <action name="select">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="cad.qrc">
+     <normaloff>:/cad/Resources/move_32px_1208133_easyicon.net.ico</normaloff>:/cad/Resources/move_32px_1208133_easyicon.net.ico</iconset>
+   </property>
+   <property name="text">
+    <string>移动</string>
+   </property>
+  </action>
+  <action name="undo">
+   <property name="icon">
+    <iconset resource="cad.qrc">
+     <normaloff>:/cad/Resources/20181011081318398_easyicon_net_32.ico</normaloff>:/cad/Resources/20181011081318398_easyicon_net_32.ico</iconset>
+   </property>
+   <property name="text">
+    <string>撤销</string>
+   </property>
+  </action>
+  <action name="exect">
+   <property name="icon">
+    <iconset resource="cad.qrc">
+     <normaloff>:/cad/Resources/Redo_32px_522651_easyicon.net.ico</normaloff>:/cad/Resources/Redo_32px_522651_easyicon.net.ico</iconset>
+   </property>
+   <property name="text">
+    <string>重做</string>
+   </property>
+  </action>
+  <action name="open">
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="save">
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="cad.qrc"/>
+ </resources>
+ <connections/>
+</ui>

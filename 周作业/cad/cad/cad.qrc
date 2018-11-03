@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="cad">
+    <file>Resources/Redo_32px_522651_easyicon.net.ico</file>
+    <file>Resources/20181011081318398_easyicon_net_32.ico</file>
+    <file>Resources/move_32px_1208133_easyicon.net.ico</file>
+    <file>Resources/my_work_Color_plate_32px_515147_easyicon.net.ico</file>
+    <file>Resources/rectangle_32px_1125662_easyicon.net.ico</file>
+    <file>Resources/line_32px_1101685_easyicon.net.ico</file>
+    <file>Resources/ellipse_stroked_32px_1168912_easyicon.net.ico</file>
+  </qresource>
+</RCC>
