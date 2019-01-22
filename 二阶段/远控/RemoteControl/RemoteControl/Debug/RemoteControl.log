@@ -1,0 +1,12 @@
+﻿  Moc'ing CRecvThread.h...
+  moc_CAcceptThread.cpp
+  moc_CRecvThread.cpp
+  moc_RemoteControl.cpp
+  moc_SeverScoket.cpp
+  CAcceptThread.cpp
+  CRecvThread.cpp
+  RemoteControl.cpp
+  SeverScoket.cpp
+CRecvThread.cpp(56): error C3861: “sig_CreateDialog”: 找不到标识符 (编译源文件 CRecvThread.cpp)
+CRecvThread.cpp(63): error C3861: “sig_RecvData”: 找不到标识符 (编译源文件 CRecvThread.cpp)
+  main.cpp
