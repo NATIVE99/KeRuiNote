@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>rec/drag.ico</file>
+        <file>rec/drag2.ico</file>
+        <file>rec/eye.cur</file>
+    </qresource>
+</RCC>
