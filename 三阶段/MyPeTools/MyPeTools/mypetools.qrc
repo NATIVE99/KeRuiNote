@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/MyPeTools"/>
+    <qresource prefix="/">
+        <file>Resources/CFF Explorer.ico</file>
+    </qresource>
+</RCC>

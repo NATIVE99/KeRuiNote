@@ -1,0 +1,21 @@
+01012483 push ebx
+01012484 mov edi, dword ptr ds:[0x0100102ýýýý
+0101248A call edi
+77A316D0 mov edi, edi
+77A316D2 push ebp
+77A316D3 mov ebp, esp
+77A316D5 pop ebp
+77A316D6 jmp dword ptr ds:[0x77A91164]
+75922F00 mov edi, edi
+75922F02 push ebp
+75922F03 mov ebp, esp
+75922F05 sub esp, 0x1C
+75922F08 cmp dword ptr ss:[ebp+0x08], 0x0ýýýý
+75922F0C jz 0x75922FA5
+75922FA5 mov eax, dword ptr fs:[0x0000003ýýýý
+75922FAB mov eax, dword ptr ds:[eax+0x08]ýýýý
+75922FAE jmp 0x75922F96
+75922F96 mov esp, ebp
+75922F98 pop ebp
+75922F99 ret 0x04
+0101248C cmp word ptr ds:[eax], 0x5A4D
