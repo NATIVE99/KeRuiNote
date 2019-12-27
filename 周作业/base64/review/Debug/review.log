@@ -1,14 +1,3 @@
-﻿生成启动时间为 2018/8/8 19:11:37。
-     1>项目“E:\CC++project\c++\科锐\2018-08-08\review\review\review.vcxproj”在节点 2 上(Build 个目标)。
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\review.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt review.cpp
-         review.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\CC++project\c++\科锐\2018-08-08\review\Debug\review.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\CC++project\c++\科锐\2018-08-08\review\Debug\review.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\CC++project\c++\科锐\2018-08-08\review\Debug\review.lib" /MACHINE:X86 Debug\review.obj
-         Debug\stdafx.obj
-         review.vcxproj -> E:\CC++project\c++\科锐\2018-08-08\review\Debug\review.exe
-     1>已完成生成项目“E:\CC++project\c++\科锐\2018-08-08\review\review\review.vcxproj”(Build 个目标)的操作。
-
-生成成功。
-
-已用时间 00:00:00.62
+﻿  review.cpp
+  review.vcxproj -> E:\github\KeRuiNote\KeRuiNote\周作业\base64\Debug\review.exe
+  review.vcxproj -> E:\github\KeRuiNote\KeRuiNote\周作业\base64\Debug\review.pdb (Full PDB)
